@@ -1,0 +1,2792 @@
+{
+    "2595": {
+        "listing_id": "2595",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$240.00 ",
+        "adjusted_price": "$240.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "5121": {
+        "listing_id": "5121",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$60.00 ",
+        "adjusted_price": "$60.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "5136": {
+        "listing_id": "5136",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$276.00 ",
+        "adjusted_price": "$276.00 ",
+        "minimum_nights": "21",
+        "maximum_nights": "1125"
+    },
+    "5178": {
+        "listing_id": "5178",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$68.00 ",
+        "adjusted_price": "$68.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "14"
+    },
+    "5203": {
+        "listing_id": "5203",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "14"
+    },
+    "5803": {
+        "listing_id": "5803",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$135.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "30"
+    },
+    "6848": {
+        "listing_id": "6848",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$89.00 ",
+        "adjusted_price": "$89.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "6872": {
+        "listing_id": "6872",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$65.00 ",
+        "adjusted_price": "$65.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "180"
+    },
+    "6990": {
+        "listing_id": "6990",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "7064": {
+        "listing_id": "7064",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$95.00 ",
+        "adjusted_price": "$95.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "45"
+    },
+    "7097": {
+        "listing_id": "7097",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$199.00 ",
+        "adjusted_price": "$199.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "7801": {
+        "listing_id": "7801",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$395.00 ",
+        "adjusted_price": "$395.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "8490": {
+        "listing_id": "8490",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "9357": {
+        "listing_id": "9357",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "9704": {
+        "listing_id": "9704",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$52.00 ",
+        "adjusted_price": "$52.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "10452": {
+        "listing_id": "10452",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "10962": {
+        "listing_id": "10962",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$135.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "30"
+    },
+    "11943": {
+        "listing_id": "11943",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "12192": {
+        "listing_id": "12192",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "1125"
+    },
+    "12937": {
+        "listing_id": "12937",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$165.00 ",
+        "adjusted_price": "$165.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "12940": {
+        "listing_id": "12940",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$119.00 ",
+        "adjusted_price": "$119.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "13808": {
+        "listing_id": "13808",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$105.00 ",
+        "adjusted_price": "$105.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "14314": {
+        "listing_id": "14314",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$129.00 ",
+        "adjusted_price": "$129.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "14434": {
+        "listing_id": "14434",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "14991": {
+        "listing_id": "14991",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$120.00 ",
+        "adjusted_price": "$120.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "15"
+    },
+    "15341": {
+        "listing_id": "15341",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$315.00 ",
+        "adjusted_price": "$315.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "15385": {
+        "listing_id": "15385",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$91.00 ",
+        "adjusted_price": "$91.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "30"
+    },
+    "15396": {
+        "listing_id": "15396",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$400.00 ",
+        "adjusted_price": "$400.00 ",
+        "minimum_nights": "90",
+        "maximum_nights": "365"
+    },
+    "16338": {
+        "listing_id": "16338",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$55.00 ",
+        "adjusted_price": "$55.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "200"
+    },
+    "16580": {
+        "listing_id": "16580",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$148.00 ",
+        "adjusted_price": "$148.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "16821": {
+        "listing_id": "16821",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$218.00 ",
+        "adjusted_price": "$218.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "31"
+    },
+    "16974": {
+        "listing_id": "16974",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$300.00 ",
+        "adjusted_price": "$300.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "17037": {
+        "listing_id": "17037",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$220.00 ",
+        "adjusted_price": "$220.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "17693": {
+        "listing_id": "17693",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "28"
+    },
+    "18018": {
+        "listing_id": "18018",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$350.00 ",
+        "adjusted_price": "$350.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "18152": {
+        "listing_id": "18152",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$500.00 ",
+        "adjusted_price": "$500.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "18728": {
+        "listing_id": "18728",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$195.00 ",
+        "adjusted_price": "$195.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "1125"
+    },
+    "18961": {
+        "listing_id": "18961",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$95.00 ",
+        "adjusted_price": "$95.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "180"
+    },
+    "19282": {
+        "listing_id": "19282",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "19812": {
+        "listing_id": "19812",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$105.00 ",
+        "adjusted_price": "$105.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "20913": {
+        "listing_id": "20913",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "21644": {
+        "listing_id": "21644",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$99.00 ",
+        "adjusted_price": "$99.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "21794": {
+        "listing_id": "21794",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "23135": {
+        "listing_id": "23135",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$242.00 ",
+        "adjusted_price": "$242.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "45"
+    },
+    "23686": {
+        "listing_id": "23686",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$650.00 ",
+        "adjusted_price": "$650.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "29"
+    },
+    "24285": {
+        "listing_id": "24285",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$220.00 ",
+        "adjusted_price": "$220.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "180"
+    },
+    "25406": {
+        "listing_id": "25406",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "100"
+    },
+    "26785": {
+        "listing_id": "26785",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "27644": {
+        "listing_id": "27644",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$190.00 ",
+        "adjusted_price": "$190.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "20"
+    },
+    "27883": {
+        "listing_id": "27883",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "28907": {
+        "listing_id": "28907",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "29013": {
+        "listing_id": "29013",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "29628": {
+        "listing_id": "29628",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$94.00 ",
+        "adjusted_price": "$94.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "29683": {
+        "listing_id": "29683",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$195.00 ",
+        "adjusted_price": "$195.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "31130": {
+        "listing_id": "31130",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "360"
+    },
+    "31555": {
+        "listing_id": "31555",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$120.00 ",
+        "adjusted_price": "$120.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "59"
+    },
+    "31902": {
+        "listing_id": "31902",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$77.00 ",
+        "adjusted_price": "$77.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "31994": {
+        "listing_id": "31994",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$105.00 ",
+        "adjusted_price": "$105.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "32037": {
+        "listing_id": "32037",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$135.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "33009": {
+        "listing_id": "33009",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$215.00 ",
+        "adjusted_price": "$215.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "33156": {
+        "listing_id": "33156",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$139.00 ",
+        "adjusted_price": "$139.00 ",
+        "minimum_nights": "120",
+        "maximum_nights": "180"
+    },
+    "36121": {
+        "listing_id": "36121",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "90",
+        "maximum_nights": "365"
+    },
+    "36647": {
+        "listing_id": "36647",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "999"
+    },
+    "36703": {
+        "listing_id": "36703",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$210.00 ",
+        "adjusted_price": "$210.00 ",
+        "minimum_nights": "40",
+        "maximum_nights": "1125"
+    },
+    "36934": {
+        "listing_id": "36934",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "6",
+        "maximum_nights": "28"
+    },
+    "38663": {
+        "listing_id": "38663",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$900.00 ",
+        "adjusted_price": "$900.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "60"
+    },
+    "38833": {
+        "listing_id": "38833",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "1125"
+    },
+    "39282": {
+        "listing_id": "39282",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "1125"
+    },
+    "39572": {
+        "listing_id": "39572",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$139.00 ",
+        "adjusted_price": "$139.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "39593": {
+        "listing_id": "39593",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$78.00 ",
+        "adjusted_price": "$78.00 ",
+        "minimum_nights": "31",
+        "maximum_nights": "180"
+    },
+    "39704": {
+        "listing_id": "39704",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$135.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "42300": {
+        "listing_id": "42300",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$750.00 ",
+        "adjusted_price": "$750.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "42729": {
+        "listing_id": "42729",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$236.00 ",
+        "adjusted_price": "$236.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "45"
+    },
+    "42882": {
+        "listing_id": "42882",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "730"
+    },
+    "43105": {
+        "listing_id": "43105",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "44229": {
+        "listing_id": "44229",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "45542": {
+        "listing_id": "45542",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "45556": {
+        "listing_id": "45556",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$65.00 ",
+        "adjusted_price": "$65.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "45737": {
+        "listing_id": "45737",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$73.00 ",
+        "adjusted_price": "$73.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "45910": {
+        "listing_id": "45910",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$425.00 ",
+        "adjusted_price": "$425.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "45935": {
+        "listing_id": "45935",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$60.00 ",
+        "adjusted_price": "$60.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "40"
+    },
+    "45936": {
+        "listing_id": "45936",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$98.00 ",
+        "adjusted_price": "$98.00 ",
+        "minimum_nights": "31",
+        "maximum_nights": "730"
+    },
+    "46911": {
+        "listing_id": "46911",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$120.00 ",
+        "adjusted_price": "$120.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "49048": {
+        "listing_id": "49048",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$104.00 ",
+        "adjusted_price": "$104.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "50447": {
+        "listing_id": "50447",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "30"
+    },
+    "51438": {
+        "listing_id": "51438",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$130.00 ",
+        "adjusted_price": "$130.00 ",
+        "minimum_nights": "14",
+        "maximum_nights": "31"
+    },
+    "52689": {
+        "listing_id": "52689",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$180.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "53469": {
+        "listing_id": "53469",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$139.00 ",
+        "adjusted_price": "$139.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "53470": {
+        "listing_id": "53470",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$194.00 ",
+        "adjusted_price": "$194.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "53477": {
+        "listing_id": "53477",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$350.00 ",
+        "adjusted_price": "$350.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "54466": {
+        "listing_id": "54466",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "54508": {
+        "listing_id": "54508",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$95.00 ",
+        "adjusted_price": "$95.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "54544": {
+        "listing_id": "54544",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$160.00 ",
+        "adjusted_price": "$160.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "30"
+    },
+    "54694": {
+        "listing_id": "54694",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$65.00 ",
+        "adjusted_price": "$65.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "54860": {
+        "listing_id": "54860",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$125.00 ",
+        "adjusted_price": "$125.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "55959": {
+        "listing_id": "55959",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "55982": {
+        "listing_id": "55982",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "18"
+    },
+    "56859": {
+        "listing_id": "56859",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "30"
+    },
+    "57166": {
+        "listing_id": "57166",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$169.00 ",
+        "adjusted_price": "$169.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "360"
+    },
+    "57297": {
+        "listing_id": "57297",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$249.00 ",
+        "adjusted_price": "$249.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "90"
+    },
+    "57618": {
+        "listing_id": "57618",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "365"
+    },
+    "57754": {
+        "listing_id": "57754",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$350.00 ",
+        "adjusted_price": "$350.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "6"
+    },
+    "57874": {
+        "listing_id": "57874",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$165.00 ",
+        "adjusted_price": "$165.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "58059": {
+        "listing_id": "58059",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$46.00 ",
+        "adjusted_price": "$46.00 ",
+        "minimum_nights": "29",
+        "maximum_nights": "1125"
+    },
+    "58062": {
+        "listing_id": "58062",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$139.00 ",
+        "adjusted_price": "$139.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "30"
+    },
+    "59014": {
+        "listing_id": "59014",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "59121": {
+        "listing_id": "59121",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$249.00 ",
+        "adjusted_price": "$249.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "59709": {
+        "listing_id": "59709",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$350.00 ",
+        "adjusted_price": "$350.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "31"
+    },
+    "60164": {
+        "listing_id": "60164",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$500.00 ",
+        "adjusted_price": "$500.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "60181": {
+        "listing_id": "60181",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$165.00 ",
+        "adjusted_price": "$165.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "65"
+    },
+    "60457": {
+        "listing_id": "60457",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "60611": {
+        "listing_id": "60611",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$135.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "60666": {
+        "listing_id": "60666",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "30"
+    },
+    "60673": {
+        "listing_id": "60673",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$125.00 ",
+        "adjusted_price": "$125.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "60680": {
+        "listing_id": "60680",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$125.00 ",
+        "adjusted_price": "$125.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "60794": {
+        "listing_id": "60794",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$195.00 ",
+        "adjusted_price": "$195.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "61509": {
+        "listing_id": "61509",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "200",
+        "maximum_nights": "730"
+    },
+    "62891": {
+        "listing_id": "62891",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "365"
+    },
+    "62925": {
+        "listing_id": "62925",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$325.00 ",
+        "adjusted_price": "$325.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "90"
+    },
+    "63588": {
+        "listing_id": "63588",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "63610": {
+        "listing_id": "63610",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$99.00 ",
+        "adjusted_price": "$99.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "63657": {
+        "listing_id": "63657",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$135.00 ",
+        "adjusted_price": "$135.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "64000": {
+        "listing_id": "64000",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$60.00 ",
+        "adjusted_price": "$60.00 ",
+        "minimum_nights": "60",
+        "maximum_nights": "1125"
+    },
+    "64015": {
+        "listing_id": "64015",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "64107": {
+        "listing_id": "64107",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "64314": {
+        "listing_id": "64314",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "64365": {
+        "listing_id": "64365",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$66.00 ",
+        "adjusted_price": "$66.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "64837": {
+        "listing_id": "64837",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "1125"
+    },
+    "65425": {
+        "listing_id": "65425",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$299.00 ",
+        "adjusted_price": "$299.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "730"
+    },
+    "65615": {
+        "listing_id": "65615",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "10",
+        "maximum_nights": "1125"
+    },
+    "65660": {
+        "listing_id": "65660",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$115.00 ",
+        "adjusted_price": "$115.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "120"
+    },
+    "65813": {
+        "listing_id": "65813",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "14"
+    },
+    "66008": {
+        "listing_id": "66008",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$190.00 ",
+        "adjusted_price": "$190.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "66251": {
+        "listing_id": "66251",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$359.00 ",
+        "adjusted_price": "$359.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "60"
+    },
+    "66275": {
+        "listing_id": "66275",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$399.00 ",
+        "adjusted_price": "$399.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "66741": {
+        "listing_id": "66741",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "66974": {
+        "listing_id": "66974",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$240.00 ",
+        "adjusted_price": "$240.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "67288": {
+        "listing_id": "67288",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "28",
+        "maximum_nights": "1125"
+    },
+    "67299": {
+        "listing_id": "67299",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$162.00 ",
+        "adjusted_price": "$162.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "89"
+    },
+    "68735": {
+        "listing_id": "68735",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$215.00 ",
+        "adjusted_price": "$215.00 ",
+        "minimum_nights": "14",
+        "maximum_nights": "200"
+    },
+    "68900": {
+        "listing_id": "68900",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "69894": {
+        "listing_id": "69894",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$160.00 ",
+        "adjusted_price": "$160.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "120"
+    },
+    "71010": {
+        "listing_id": "71010",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$325.00 ",
+        "adjusted_price": "$325.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "1125"
+    },
+    "71248": {
+        "listing_id": "71248",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$162.00 ",
+        "adjusted_price": "$162.00 ",
+        "minimum_nights": "15",
+        "maximum_nights": "90"
+    },
+    "71366": {
+        "listing_id": "71366",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "71384": {
+        "listing_id": "71384",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$229.00 ",
+        "adjusted_price": "$229.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "60"
+    },
+    "71812": {
+        "listing_id": "71812",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "72190": {
+        "listing_id": "72190",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "72265": {
+        "listing_id": "72265",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$85.00 ",
+        "adjusted_price": "$82.00 ",
+        "minimum_nights": "10",
+        "maximum_nights": "18"
+    },
+    "74333": {
+        "listing_id": "74333",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$98.00 ",
+        "adjusted_price": "$98.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "74438": {
+        "listing_id": "74438",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$299.00 ",
+        "adjusted_price": "$299.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "74680": {
+        "listing_id": "74680",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$120.00 ",
+        "adjusted_price": "$120.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "1125"
+    },
+    "74821": {
+        "listing_id": "74821",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$149.00 ",
+        "adjusted_price": "$149.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "74860": {
+        "listing_id": "74860",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "75635": {
+        "listing_id": "75635",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "77765": {
+        "listing_id": "77765",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$249.00 ",
+        "adjusted_price": "$249.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "79067": {
+        "listing_id": "79067",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$330.00 ",
+        "adjusted_price": "$330.00 ",
+        "minimum_nights": "48",
+        "maximum_nights": "65"
+    },
+    "80493": {
+        "listing_id": "80493",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$56.00 ",
+        "adjusted_price": "$56.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "30"
+    },
+    "80684": {
+        "listing_id": "80684",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$429.00 ",
+        "adjusted_price": "$429.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "80700": {
+        "listing_id": "80700",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$369.00 ",
+        "adjusted_price": "$369.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "80924": {
+        "listing_id": "80924",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$160.00 ",
+        "adjusted_price": "$160.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "81739": {
+        "listing_id": "81739",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$369.00 ",
+        "adjusted_price": "$369.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "82638": {
+        "listing_id": "82638",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$139.00 ",
+        "adjusted_price": "$139.00 ",
+        "minimum_nights": "31",
+        "maximum_nights": "45"
+    },
+    "82928": {
+        "listing_id": "82928",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "83243": {
+        "listing_id": "83243",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$77.00 ",
+        "adjusted_price": "$77.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "84010": {
+        "listing_id": "84010",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$249.00 ",
+        "adjusted_price": "$249.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "89621": {
+        "listing_id": "89621",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$94.00 ",
+        "adjusted_price": "$94.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "92242": {
+        "listing_id": "92242",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$400.00 ",
+        "adjusted_price": "$400.00 ",
+        "minimum_nights": "21",
+        "maximum_nights": "365"
+    },
+    "93313": {
+        "listing_id": "93313",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "94783": {
+        "listing_id": "94783",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$145.00 ",
+        "adjusted_price": "$145.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "1125"
+    },
+    "96471": {
+        "listing_id": "96471",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$165.00 ",
+        "adjusted_price": "$165.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "98663": {
+        "listing_id": "98663",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "99085": {
+        "listing_id": "99085",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$127.00 ",
+        "adjusted_price": "$127.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "100186": {
+        "listing_id": "100186",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$130.00 ",
+        "adjusted_price": "$130.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "100368": {
+        "listing_id": "100368",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$277.00 ",
+        "adjusted_price": "$277.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "270"
+    },
+    "101053": {
+        "listing_id": "101053",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "60",
+        "maximum_nights": "90"
+    },
+    "103161": {
+        "listing_id": "103161",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$405.00 ",
+        "adjusted_price": "$405.00 ",
+        "minimum_nights": "10",
+        "maximum_nights": "90"
+    },
+    "103311": {
+        "listing_id": "103311",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$599.00 ",
+        "adjusted_price": "$599.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "365"
+    },
+    "103555": {
+        "listing_id": "103555",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$375.00 ",
+        "adjusted_price": "$375.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "10"
+    },
+    "105469": {
+        "listing_id": "105469",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$99.00 ",
+        "adjusted_price": "$99.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "90"
+    },
+    "106363": {
+        "listing_id": "106363",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "106906": {
+        "listing_id": "106906",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "45",
+        "maximum_nights": "60"
+    },
+    "107630": {
+        "listing_id": "107630",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$225.00 ",
+        "adjusted_price": "$225.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "90"
+    },
+    "112304": {
+        "listing_id": "112304",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "112435": {
+        "listing_id": "112435",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$95.00 ",
+        "adjusted_price": "$95.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "113092": {
+        "listing_id": "113092",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "113265": {
+        "listing_id": "113265",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$60.00 ",
+        "adjusted_price": "$60.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "115535": {
+        "listing_id": "115535",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$65.00 ",
+        "adjusted_price": "$65.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "115748": {
+        "listing_id": "115748",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "30"
+    },
+    "116551": {
+        "listing_id": "116551",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$87.00 ",
+        "adjusted_price": "$87.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "118061": {
+        "listing_id": "118061",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$120.00 ",
+        "adjusted_price": "$120.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "100"
+    },
+    "121687": {
+        "listing_id": "121687",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "125163": {
+        "listing_id": "125163",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$99.00 ",
+        "adjusted_price": "$99.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "126816": {
+        "listing_id": "126816",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "127387": {
+        "listing_id": "127387",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$260.00 ",
+        "adjusted_price": "$260.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "132516": {
+        "listing_id": "132516",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "133025": {
+        "listing_id": "133025",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$68.00 ",
+        "adjusted_price": "$68.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "134934": {
+        "listing_id": "134934",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "135465": {
+        "listing_id": "135465",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$170.00 ",
+        "adjusted_price": "$170.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "365"
+    },
+    "136493": {
+        "listing_id": "136493",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$325.00 ",
+        "adjusted_price": "$325.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "60"
+    },
+    "139624": {
+        "listing_id": "139624",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "140133": {
+        "listing_id": "140133",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$279.00 ",
+        "adjusted_price": "$279.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "180"
+    },
+    "141154": {
+        "listing_id": "141154",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "141335": {
+        "listing_id": "141335",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$900.00 ",
+        "adjusted_price": "$900.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "142069": {
+        "listing_id": "142069",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "144087": {
+        "listing_id": "144087",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$699.00 ",
+        "adjusted_price": "$699.00 ",
+        "minimum_nights": "6",
+        "maximum_nights": "365"
+    },
+    "144148": {
+        "listing_id": "144148",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$67.00 ",
+        "adjusted_price": "$67.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "146726": {
+        "listing_id": "146726",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "120"
+    },
+    "148201": {
+        "listing_id": "148201",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "148259": {
+        "listing_id": "148259",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$370.00 ",
+        "adjusted_price": "$370.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "60"
+    },
+    "148825": {
+        "listing_id": "148825",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "180"
+    },
+    "150804": {
+        "listing_id": "150804",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$375.00 ",
+        "adjusted_price": "$375.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "1125"
+    },
+    "150989": {
+        "listing_id": "150989",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$140.00 ",
+        "adjusted_price": "$140.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "152071": {
+        "listing_id": "152071",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "15"
+    },
+    "152259": {
+        "listing_id": "152259",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$55.00 ",
+        "adjusted_price": "$55.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "31"
+    },
+    "152263": {
+        "listing_id": "152263",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$360.00 ",
+        "adjusted_price": "$360.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "25"
+    },
+    "152819": {
+        "listing_id": "152819",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$458.00 ",
+        "adjusted_price": "$458.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "10"
+    },
+    "154934": {
+        "listing_id": "154934",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "155087": {
+        "listing_id": "155087",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$625.00 ",
+        "adjusted_price": "$625.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "1125"
+    },
+    "157673": {
+        "listing_id": "157673",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$65.00 ",
+        "adjusted_price": "$65.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "158061": {
+        "listing_id": "158061",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$165.00 ",
+        "adjusted_price": "$165.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "158178": {
+        "listing_id": "158178",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$115.00 ",
+        "adjusted_price": "$115.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "159749": {
+        "listing_id": "159749",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "159815": {
+        "listing_id": "159815",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$68.00 ",
+        "adjusted_price": "$68.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "1125"
+    },
+    "159913": {
+        "listing_id": "159913",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$225.00 ",
+        "adjusted_price": "$225.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "162493": {
+        "listing_id": "162493",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$750.00 ",
+        "adjusted_price": "$750.00 ",
+        "minimum_nights": "6",
+        "maximum_nights": "30"
+    },
+    "162508": {
+        "listing_id": "162508",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "22"
+    },
+    "163814": {
+        "listing_id": "163814",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$205.00 ",
+        "adjusted_price": "$205.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "28"
+    },
+    "166006": {
+        "listing_id": "166006",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "31",
+        "maximum_nights": "365"
+    },
+    "166172": {
+        "listing_id": "166172",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$55.00 ",
+        "adjusted_price": "$55.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "166983": {
+        "listing_id": "166983",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$350.00 ",
+        "adjusted_price": "$350.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "168123": {
+        "listing_id": "168123",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$130.00 ",
+        "adjusted_price": "$130.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "169063": {
+        "listing_id": "169063",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "169306": {
+        "listing_id": "169306",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$55.00 ",
+        "adjusted_price": "$55.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "60"
+    },
+    "169464": {
+        "listing_id": "169464",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "170420": {
+        "listing_id": "170420",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$79.00 ",
+        "adjusted_price": "$79.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "170761": {
+        "listing_id": "170761",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$85.00 ",
+        "adjusted_price": "$85.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "171562": {
+        "listing_id": "171562",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$235.00 ",
+        "adjusted_price": "$235.00 ",
+        "minimum_nights": "6",
+        "maximum_nights": "1125"
+    },
+    "171978": {
+        "listing_id": "171978",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$105.00 ",
+        "adjusted_price": "$105.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "730"
+    },
+    "173151": {
+        "listing_id": "173151",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$78.00 ",
+        "adjusted_price": "$78.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "31"
+    },
+    "174966": {
+        "listing_id": "174966",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$2,500.00 ",
+        "adjusted_price": "$2,500.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "176135": {
+        "listing_id": "176135",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "40"
+    },
+    "177495": {
+        "listing_id": "177495",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$550.00 ",
+        "adjusted_price": "$550.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "177606": {
+        "listing_id": "177606",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$189.00 ",
+        "adjusted_price": "$189.00 ",
+        "minimum_nights": "10",
+        "maximum_nights": "1125"
+    },
+    "179670": {
+        "listing_id": "179670",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "7"
+    },
+    "179741": {
+        "listing_id": "179741",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$199.00 ",
+        "adjusted_price": "$199.00 ",
+        "minimum_nights": "1",
+        "maximum_nights": "365"
+    },
+    "182069": {
+        "listing_id": "182069",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "182177": {
+        "listing_id": "182177",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "187566": {
+        "listing_id": "187566",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$133.00 ",
+        "adjusted_price": "$133.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "187986": {
+        "listing_id": "187986",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$250.00 ",
+        "adjusted_price": "$250.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "188674": {
+        "listing_id": "188674",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$165.00 ",
+        "adjusted_price": "$165.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "188803": {
+        "listing_id": "188803",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "189135": {
+        "listing_id": "189135",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$145.00 ",
+        "adjusted_price": "$145.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "365"
+    },
+    "189181": {
+        "listing_id": "189181",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$255.00 ",
+        "adjusted_price": "$255.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "189732": {
+        "listing_id": "189732",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$189.00 ",
+        "adjusted_price": "$189.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "189787": {
+        "listing_id": "189787",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$99.00 ",
+        "adjusted_price": "$99.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "518"
+    },
+    "190968": {
+        "listing_id": "190968",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "190974": {
+        "listing_id": "190974",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$130.00 ",
+        "adjusted_price": "$130.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "31"
+    },
+    "191610": {
+        "listing_id": "191610",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$123.00 ",
+        "adjusted_price": "$123.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "195123": {
+        "listing_id": "195123",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "195989": {
+        "listing_id": "195989",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$105.00 ",
+        "adjusted_price": "$105.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "29"
+    },
+    "197942": {
+        "listing_id": "197942",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$198.00 ",
+        "adjusted_price": "$198.00 ",
+        "minimum_nights": "5",
+        "maximum_nights": "1125"
+    },
+    "198478": {
+        "listing_id": "198478",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$94.00 ",
+        "adjusted_price": "$94.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "200"
+    },
+    "200955": {
+        "listing_id": "200955",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$125.00 ",
+        "adjusted_price": "$125.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "300"
+    },
+    "201514": {
+        "listing_id": "201514",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "201992": {
+        "listing_id": "201992",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$190.00 ",
+        "adjusted_price": "$190.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "202273": {
+        "listing_id": "202273",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$55.00 ",
+        "adjusted_price": "$55.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "101"
+    },
+    "203901": {
+        "listing_id": "203901",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$190.00 ",
+        "adjusted_price": "$190.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "204065": {
+        "listing_id": "204065",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$498.00 ",
+        "adjusted_price": "$498.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "365"
+    },
+    "205485": {
+        "listing_id": "205485",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "205867": {
+        "listing_id": "205867",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$120.00 ",
+        "adjusted_price": "$120.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "365"
+    },
+    "206316": {
+        "listing_id": "206316",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$157.00 ",
+        "adjusted_price": "$157.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "730"
+    },
+    "206957": {
+        "listing_id": "206957",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$72.00 ",
+        "adjusted_price": "$72.00 ",
+        "minimum_nights": "14",
+        "maximum_nights": "365"
+    },
+    "208148": {
+        "listing_id": "208148",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "208889": {
+        "listing_id": "208889",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$91.00 ",
+        "adjusted_price": "$91.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "209310": {
+        "listing_id": "209310",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$59.00 ",
+        "adjusted_price": "$59.00 ",
+        "minimum_nights": "7",
+        "maximum_nights": "1125"
+    },
+    "212109": {
+        "listing_id": "212109",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$89.00 ",
+        "adjusted_price": "$89.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "212544": {
+        "listing_id": "212544",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "213330": {
+        "listing_id": "213330",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$199.00 ",
+        "adjusted_price": "$199.00 ",
+        "minimum_nights": "6",
+        "maximum_nights": "1125"
+    },
+    "214917": {
+        "listing_id": "214917",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$83.00 ",
+        "adjusted_price": "$83.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "216080": {
+        "listing_id": "216080",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$190.00 ",
+        "adjusted_price": "$190.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "217580": {
+        "listing_id": "217580",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "218358": {
+        "listing_id": "218358",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "219066": {
+        "listing_id": "219066",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "10",
+        "maximum_nights": "365"
+    },
+    "219922": {
+        "listing_id": "219922",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$90.00 ",
+        "adjusted_price": "$90.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "30"
+    },
+    "220563": {
+        "listing_id": "220563",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "222304": {
+        "listing_id": "222304",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$149.00 ",
+        "adjusted_price": "$149.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "31"
+    },
+    "222913": {
+        "listing_id": "222913",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$220.00 ",
+        "adjusted_price": "$220.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "223930": {
+        "listing_id": "223930",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$150.00 ",
+        "adjusted_price": "$150.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "60"
+    },
+    "224004": {
+        "listing_id": "224004",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "225354": {
+        "listing_id": "225354",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$180.00 ",
+        "adjusted_price": "$180.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "225976": {
+        "listing_id": "225976",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$80.00 ",
+        "adjusted_price": "$80.00 ",
+        "minimum_nights": "4",
+        "maximum_nights": "1125"
+    },
+    "226021": {
+        "listing_id": "226021",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$295.00 ",
+        "adjusted_price": "$295.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "180"
+    },
+    "227495": {
+        "listing_id": "227495",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$145.00 ",
+        "adjusted_price": "$145.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "227715": {
+        "listing_id": "227715",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$123.00 ",
+        "adjusted_price": "$123.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "228317": {
+        "listing_id": "228317",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$175.00 ",
+        "adjusted_price": "$175.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "228925": {
+        "listing_id": "228925",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$100.00 ",
+        "adjusted_price": "$100.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "90"
+    },
+    "230877": {
+        "listing_id": "230877",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$160.00 ",
+        "adjusted_price": "$160.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "231154": {
+        "listing_id": "231154",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "232612": {
+        "listing_id": "232612",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$113.00 ",
+        "adjusted_price": "$113.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "28"
+    },
+    "232775": {
+        "listing_id": "232775",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$195.00 ",
+        "adjusted_price": "$195.00 ",
+        "minimum_nights": "181",
+        "maximum_nights": "365"
+    },
+    "233638": {
+        "listing_id": "233638",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$89.00 ",
+        "adjusted_price": "$89.00 ",
+        "minimum_nights": "2",
+        "maximum_nights": "1125"
+    },
+    "235515": {
+        "listing_id": "235515",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$55.00 ",
+        "adjusted_price": "$55.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "235552": {
+        "listing_id": "235552",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$300.00 ",
+        "adjusted_price": "$300.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "235651": {
+        "listing_id": "235651",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$110.00 ",
+        "adjusted_price": "$110.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1000"
+    },
+    "235951": {
+        "listing_id": "235951",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$185.00 ",
+        "adjusted_price": "$185.00 ",
+        "minimum_nights": "29",
+        "maximum_nights": "130"
+    },
+    "235960": {
+        "listing_id": "235960",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "365"
+    },
+    "236671": {
+        "listing_id": "236671",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$200.00 ",
+        "adjusted_price": "$200.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "1125"
+    },
+    "237162": {
+        "listing_id": "237162",
+        "date": "8/31/2023",
+        "available": "t",
+        "price": "$70.00 ",
+        "adjusted_price": "$70.00 ",
+        "minimum_nights": "3",
+        "maximum_nights": "1125"
+    },
+    "239733": {
+        "listing_id": "239733",
+        "date": "8/31/2023",
+        "available": "f",
+        "price": "$75.00 ",
+        "adjusted_price": "$75.00 ",
+        "minimum_nights": "30",
+        "maximum_nights": "120"
+    }
+}
