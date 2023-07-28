@@ -1,6 +1,6 @@
 body {
-    padding: 0;
-    margin: 0;
+    padding: 100;
+    margin: 100;
   }
   
   #map,
@@ -9,3 +9,67 @@ body {
     height: 100%;
   }
   
+  h1 {
+    font-family: Copperplate;
+    font-size: 50px;
+    text-align: center;
+    color: #FF5A5F; /* color is the same as Airbnb Logo */
+    border: black;
+    border-width: 5px;
+    border-bottom: 7px;
+    
+}
+
+h3 {
+  font-family: Copperplate;
+  text-align: center;
+  font-size: 33px;
+  color:#00A699; /* Airbnb color family */
+  border: black;
+  border-width: 5px;
+  border-bottom: 7px;
+}
+
+h4 {
+  font-family: system-ui;
+  text-align: center;
+  font-size: 20px;
+  color: #484848 /* Airbnb color family */
+}
+
+.col-md-12 {
+  text-align: center;
+}
+
+
+body {
+  background-color: #f9edf7ca;
+  background-image: url(https://static.dezeen.com/uploads/2014/07/Airbnb-rebrand-by-DesignStudio_dezeen_468_8.jpg);
+  background-position: top left;
+  background-repeat: no-repeat; /* Doesn't repeat the image */
+  background-size: 300px 300px;
+}
+
+a {
+  color: #FF5A5F;          /* color is the same as Airbnb Logo */
+  text-decoration: none; /* removes the underline */
+  font-size: 30px;      /* changes the font size */
+}
+
+a:hover {
+  color: #00A699;         /* changes the link color to Airbnb color family when hovered over */
+}
+
+a:active {
+  color: rgb(107, 58, 198);        /* changes the link color to purple when clicked on (active) */
+}
+
+#propertyAnalysisLink {
+  font-family: system-ui;
+  margin-right: 20px;
+}
+
+#reviewsAnalysisLink {
+  font-family: system-ui;
+  margin-right: 20px;
+}
