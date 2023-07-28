@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYC AirBnb Room Type Analysis</title>
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+  <style>
+    /* Grid container to arrange plots side-by-side in the first row */
+    .first-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px; /* Adjust gap as per your preference */
+    }
+    /* Grid container to arrange the plots in the second row */
+    .second-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 5px; /* Adjust gap as per your preference */
+    }
+    /* Each plot will occupy full width of its cell in the grid */
+    .plot-item {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="first-row">
+    <div class="plot-item" id="plot1"></div> <!-- Pie chart will be shown here -->
+    <div class="plot-item" id="plot2"></div> <!-- Bar graph will be shown here -->
+    <div class="plot-item" id="plot3"></div> <!-- Grouped bar chart will be shown here -->
+  </div>
+  <div class="second-row">
+    <div></div> <!-- Empty div for space -->
+    <div class="plot-item" id="plot4"></div> <!-- Reviews grouped bar chart will be shown here -->
+    <div class="plot-item" id="plot5"></div> <!-- Ratings bar chart will be shown here -->
+    <div></div> <!-- Empty div for space -->
+  </div>
+  <script src="el_logic.js"></script>
+</body>
+</html>
