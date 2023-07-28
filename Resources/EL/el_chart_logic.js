@@ -4,31 +4,47 @@ const Listing = "http://127.0.0.1:5000/api/BigDataBandits/Listings";
 //----------------------------------------------------------------------------------------------------------------
 // CALCULATIONS
 
-// Count number of room types
-function countRoomTypes(data) {
+// Count room types
+function countRoomTypesFromUniqueListings(data) {
   if (!data || !Array.isArray(data)) {
     console.error('Invalid data format. Expected an array.');
     return {};
   }
 
-  const roomTypeCount = {};
+  // Step 1: Filter unique listing_id entries
+  const uniqueListings = {};
   data.forEach(entry => {
+    const listingId = entry.listing_id;
     const roomType = entry.room_type;
-    roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+
+    if (!uniqueListings[listingId]) {
+      uniqueListings[listingId] = new Set();
+    }
+
+    uniqueListings[listingId].add(roomType);
   });
+
+  // Step 2: Count room types from the unique listing_id entries
+  const roomTypeCount = {};
+  for (const listingId in uniqueListings) {
+    uniqueListings[listingId].forEach(roomType => {
+      roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+    });
+  }
+
   return roomTypeCount;
 }
 
 // Calculate average number accommodated by room type
-function calculateAverageAccommodates(data) {
+function calculateAverageAccommodatesFromUniqueListings(data) {
   if (!data || !Array.isArray(data)) {
     console.error('Invalid data format. Expected an array.');
     return {};
   }
 
+  // Step 1: Filter unique listing_id entries and calculate total accommodates and count for each room_type
   const roomTypeTotalAccommodates = {};
   const roomTypeCount = {};
-
   data.forEach(entry => {
     const roomType = entry.room_type;
     const accommodates = parseInt(entry.accommodates);
@@ -37,6 +53,7 @@ function calculateAverageAccommodates(data) {
     roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
   });
 
+  // Step 2: Calculate the average accommodates for each room_type
   const roomTypeAverageAccommodates = {};
   for (const roomType in roomTypeTotalAccommodates) {
     const totalAccommodates = roomTypeTotalAccommodates[roomType];
@@ -48,23 +65,30 @@ function calculateAverageAccommodates(data) {
 }
 
 // Calculate average minimum required nights by room type
-function calculateAverageMinNights(data) {
+function calculateAverageMinNightsFromUniqueListings(data) {
   if (!data || !Array.isArray(data)) {
     console.error('Invalid data format. Expected an array.');
     return {};
   }
 
+  // Step 1: Filter unique listing_id entries and calculate total minimum nights and count for each room_type
   const roomTypeTotalMinNights = {};
   const roomTypeCount = {};
+  const uniqueListingIds = new Set();
 
   data.forEach(entry => {
     const roomType = entry.room_type;
     const minNights = parseInt(entry.minimum_nights);
+    const listingId = entry.listing_id;
 
-    roomTypeTotalMinNights[roomType] = (roomTypeTotalMinNights[roomType] || 0) + minNights;
-    roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+    if (!uniqueListingIds.has(listingId)) {
+      uniqueListingIds.add(listingId);
+      roomTypeTotalMinNights[roomType] = (roomTypeTotalMinNights[roomType] || 0) + minNights;
+      roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+    }
   });
 
+  // Step 2: Calculate the average minimum nights for each room_type
   const roomTypeAverageMinNights = {};
   for (const roomType in roomTypeTotalMinNights) {
     const totalMinNights = roomTypeTotalMinNights[roomType];
@@ -76,23 +100,30 @@ function calculateAverageMinNights(data) {
 }
 
 // Calculate average maximum required nights by room type
-function calculateAverageMaxNights(data) {
+function calculateAverageMaxNightsFromUniqueListings(data) {
   if (!data || !Array.isArray(data)) {
     console.error('Invalid data format. Expected an array.');
     return {};
   }
 
+  // Step 1: Filter unique listing_id entries and calculate total maximum nights and count for each room_type
   const roomTypeTotalMaxNights = {};
   const roomTypeCount = {};
+  const uniqueListingIds = new Set();
 
   data.forEach(entry => {
     const roomType = entry.room_type;
     const maxNights = parseInt(entry.maximum_nights);
+    const listingId = entry.listing_id;
 
-    roomTypeTotalMaxNights[roomType] = (roomTypeTotalMaxNights[roomType] || 0) + maxNights;
-    roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+    if (!uniqueListingIds.has(listingId)) {
+      uniqueListingIds.add(listingId);
+      roomTypeTotalMaxNights[roomType] = (roomTypeTotalMaxNights[roomType] || 0) + maxNights;
+      roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+    }
   });
 
+  // Step 2: Calculate the average maximum nights for each room_type
   const roomTypeAverageMaxNights = {};
   for (const roomType in roomTypeTotalMaxNights) {
     const totalMaxNights = roomTypeTotalMaxNights[roomType];
@@ -103,85 +134,90 @@ function calculateAverageMaxNights(data) {
   return roomTypeAverageMaxNights;
 }
 
-// Calculate average number of reviews over the last 12 months by room type
-function calculateAverageReviewsLTM(data) {
+// Calculate average number of reviews by unique listing_id
+function calculateAverageReviews(data, reviewType) {
   if (!data || !Array.isArray(data)) {
     console.error('Invalid data format. Expected an array.');
     return {};
   }
 
-  const roomTypeTotalReviewsLTM = {};
+  const uniqueListings = {}; // Keep track of unique listing_id
+  const roomTypeTotalReviews = {};
   const roomTypeCount = {};
 
   data.forEach(entry => {
+    const listingId = entry.listing_id;
     const roomType = entry.room_type;
-    const reviewsLTM = parseInt(entry.number_of_reviews_ltm);
+    const reviews = parseInt(entry[reviewType]);
 
-    roomTypeTotalReviewsLTM[roomType] = (roomTypeTotalReviewsLTM[roomType] || 0) + reviewsLTM;
-    roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
-  });
-
-  const roomTypeAverageReviewsLTM = {};
-  for (const roomType in roomTypeTotalReviewsLTM) {
-    const totalReviewsLTM = roomTypeTotalReviewsLTM[roomType];
-    const count = roomTypeCount[roomType];
-    roomTypeAverageReviewsLTM[roomType] = totalReviewsLTM / count;
-  }
-
-  return roomTypeAverageReviewsLTM;
-}
-
-// Calculate average number of reviews over the last 30 days by room type
-function calculateAverageReviews30D(data) {
-  if (!data || !Array.isArray(data)) {
-    console.error('Invalid data format. Expected an array.');
-    return {};
-  }
-
-  const roomTypeTotalReviews30D = {};
-  const roomTypeCount = {};
-
-  data.forEach(entry => {
-    const roomType = entry.room_type;
-    const reviewsLast30D = parseInt(entry.number_of_reviews_l30d);
-
-    roomTypeTotalReviews30D[roomType] = (roomTypeTotalReviews30D[roomType] || 0) + reviewsLast30D;
-    roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
-  });
-
-  const roomTypeAverageReviews30D = {};
-  for (const roomType in roomTypeTotalReviews30D) {
-    const totalReviews30D = roomTypeTotalReviews30D[roomType];
-    const count = roomTypeCount[roomType];
-    roomTypeAverageReviews30D[roomType] = totalReviews30D / count;
-  }
-
-  return roomTypeAverageReviews30D;
-}
-
-// Calculate average review scores rating by room type
-function calculateAverageReviewScores(data) {
-  if (!data || !Array.isArray(data)) {
-    console.error('Invalid data format. Expected an array.');
-    return {};
-  }
-
-  const roomTypeTotalScores = {};
-  const roomTypeCount = {};
-
-  data.forEach(entry => {
-    const roomType = entry.room_type;
-    const reviewScores = parseFloat(entry.review_scores_rating);
-
-    if (!isNaN(reviewScores)) {
-      roomTypeTotalScores[roomType] = (roomTypeTotalScores[roomType] || 0) + reviewScores;
+    if (!uniqueListings[listingId]) {
+      uniqueListings[listingId] = true; // Mark listing_id as seen
+      roomTypeTotalReviews[roomType] = (roomTypeTotalReviews[roomType] || 0) + reviews;
       roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
     }
   });
 
+  const roomTypeAverageReviews = {};
+  for (const roomType in roomTypeTotalReviews) {
+    const totalReviews = roomTypeTotalReviews[roomType];
+    const count = roomTypeCount[roomType];
+    roomTypeAverageReviews[roomType] = totalReviews / count;
+  }
+
+  return roomTypeAverageReviews;
+}
+
+// Calculate average number of reviews over the last 12 months by room type
+function calculateAverageReviewsLTM(data) {
+  return calculateAverageReviews(data, 'number_of_reviews_ltm');
+}
+
+// Calculate average number of reviews over the last 30 days by room type
+function calculateAverageReviews30D(data) {
+  return calculateAverageReviews(data, 'number_of_reviews_l30d');
+}
+
+// Calculate average review scores rating by room type
+function calculateAverageReviewScoresFromUniqueListings(data) {
+  if (!data || !Array.isArray(data)) {
+    console.error('Invalid data format. Expected an array.');
+    return {};
+  }
+
+  const uniqueListings = {}; // Object to store unique listing_id and corresponding review_scores_rating
+  const roomTypeCount = {}; // Object to keep track of the count of each room type
+
+  data.forEach(entry => {
+    const listingId = entry.listing_id;
+    const roomType = entry.room_type;
+    const reviewScores = parseFloat(entry.review_scores_rating);
+
+    if (!isNaN(reviewScores)) {
+      // Check if the listing_id is unique and add it to the uniqueListings object
+      if (!uniqueListings[listingId]) {
+        uniqueListings[listingId] = {
+          reviewScores: reviewScores,
+          roomType: roomType
+        };
+      } else {
+        // If the listing_id is not unique, update the review_scores_rating for the listing_id
+        uniqueListings[listingId].reviewScores += reviewScores;
+      }
+
+      // Increment the count of the room_type
+      roomTypeCount[roomType] = (roomTypeCount[roomType] || 0) + 1;
+    }
+  });
+
+  // Calculate the average review_scores_rating for each room type
   const roomTypeAverageScores = {};
-  for (const roomType in roomTypeTotalScores) {
-    const totalScores = roomTypeTotalScores[roomType];
+  for (const roomType in roomTypeCount) {
+    const totalScores = 0;
+    for (const listingId in uniqueListings) {
+      if (uniqueListings[listingId].roomType === roomType) {
+        totalScores += uniqueListings[listingId].reviewScores;
+      }
+    }
     const count = roomTypeCount[roomType];
     roomTypeAverageScores[roomType] = totalScores / count;
   }
@@ -193,14 +229,14 @@ function calculateAverageReviewScores(data) {
 //----------------------------------------------------------------------------------------------------------------
 // CHART DISPLAYS
 
-// Display the countRoomTypes results using Plotly to create a pie chart
+// Display the countRoomTypesFromUniqueListings results using Plotly to create a pie chart
 function plot1Chart(data) {
-  const roomTypeCount = countRoomTypes(data);
+  const roomTypeCounts = countRoomTypesFromUniqueListings(data);
 
   // Pie Chart
   const plot1Data = [{
-    values: Object.values(roomTypeCount),
-    labels: Object.keys(roomTypeCount),
+    values: Object.values(roomTypeCounts),
+    labels: Object.keys(roomTypeCounts),
     type: "pie",
     textinfo: "label+percent+value",
     textposition: "outside"
@@ -215,9 +251,9 @@ function plot1Chart(data) {
   Plotly.newPlot("plot1", plot1Data, plot1Layout);
 }
 
-// Display the calculateAverageAccommodates results using Plotly to create a bar graph
+// Display the calculateAverageAccommodatesFromUniqueListings results using Plotly to create a bar graph
 function plot2Chart(data) {
-  const roomTypeAverageAccommodates = calculateAverageAccommodates(data);
+  const roomTypeAverageAccommodates = calculateAverageAccommodatesFromUniqueListings(data);
 
   // Bar Graph
   const plot2Data = [{
@@ -239,10 +275,10 @@ function plot2Chart(data) {
   Plotly.newPlot("plot2", plot2Data, plot2Layout);
 }
 
-// Display the calculateAverageMinNights and calculateAverageMaxNights results using Plotly to create a grouped bar chart
+// Display the calculateAverageMinNightsFromUniqueListings and calculateAverageMaxNightsFromUniqueListings results using Plotly to create a grouped bar chart
 function plot3Chart(data) {
-  const roomTypeAverageMinNights = calculateAverageMinNights(data);
-  const roomTypeAverageMaxNights = calculateAverageMaxNights(data);
+  const roomTypeAverageMinNights = calculateAverageMinNightsFromUniqueListings(data);
+  const roomTypeAverageMaxNights = calculateAverageMaxNightsFromUniqueListings(data);
 
   const roomTypes = Object.keys(roomTypeAverageMinNights);
   const minNightsValues = Object.values(roomTypeAverageMinNights);
@@ -279,7 +315,7 @@ function plot3Chart(data) {
   Plotly.newPlot('plot3', plot3Data, plot3Layout);
 }
 
-// Display the Avg. Min and Max Nights Required results using Plotly to create a grouped bar chart for average reviews
+// Display the calculateAverageReviewsLTM and calculateAverageReviews30D results using Plotly to create a grouped bar chart for average reviews
 function plot4Chart(data) {
   const roomTypeAverageReviewsLTM = calculateAverageReviewsLTM(data);
   const roomTypeAverageReviews30D = calculateAverageReviews30D(data);
@@ -308,7 +344,7 @@ function plot4Chart(data) {
   ];
 
   const plot4Layout = {
-    title: 'Average Number of Reviews (Last 12 Months and Last 30 Days) by Room Type',
+    title: 'Average Number of Reviews Over Time by Room Type',
     xaxis: { title: 'Room Type' },
     yaxis: { title: 'Number of Reviews' },
     barmode: 'group',
@@ -319,9 +355,9 @@ function plot4Chart(data) {
   Plotly.newPlot('plot4', plot4Data, plot4Layout);
 }
 
-// Display the calculateAverageReviewScores results using Plotly to create a bar graph
+// Display the calculateAverageReviewScoresFromUniqueListings results using Plotly to create a bar graph
 function plot5Chart(data) {
-  const roomTypeAverageScores = calculateAverageReviewScores(data);
+  const roomTypeAverageScores = calculateAverageReviewScoresFromUniqueListings(data);
 
   // Bar Graph
   const plot5Data = [{
@@ -342,8 +378,6 @@ function plot5Chart(data) {
 
   Plotly.newPlot("plot5", plot5Data, plot5Layout);
 }
-
-
 
 
 //----------------------------------------------------------------------------------------------------------------

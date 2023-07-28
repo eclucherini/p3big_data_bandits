@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Combined NYC AirBnb</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <!-- Leaflet JavaScript code -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Turf.js library -->
+  <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+
+  <!-- Plotly library -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+  <!-- Additional CSS -->
+  <style>
+    /* Divide the page into two columns */
+    body {
+      display: flex;
+    }
+
+    /* Style for the left column (3/4 of the page) */
+    #map-container {
+      width: 75%;
+    }
+
+    /* Style for the right column (1/4 of the page) */
+    #chart-container {
+      width: 25%;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Left column: el_map_index.html -->
+  <div id="map-container">
+    <!-- map div -->
+    <div id="map"></div>
+
+    <!-- table container -->
+    <div id="table-container"></div>
+
+    <!-- Include the JavaScript file -->
+    <script src="el_map_logic.js"></script>
+  </div>
+
+  <!-- Right column: el_chart_index.html -->
+  <div id="chart-container">
+    <!-- Contents from el_chart_index.html -->
+    <div class="first-row">
+      <div class="plot-item" id="plot1"></div>
+    </div>
+    <div class="second-row">
+      <div class="plot-item" id="plot2"></div>
+    </div>
+    <div class="third-row">
+      <div class="plot-item" id="plot3"></div>
+    </div>
+    <div class="fourth-row">
+      <div class="plot-item" id="plot4"></div>
+    </div>
+    <div class="fifth-row">
+      <div class="plot-item" id="plot5"></div>
+    </div>
+    <script src="el_chart_logic.js"></script>
+  </div>
+</body>
+
+</html>

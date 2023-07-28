@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>New York City AirBnb Analysis</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <!-- Upper half of the webpage -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>New York City AirBnb Dashboard</h1>
+        <br>
+        <p>Rutva Korat, Elena Lucherini, Andrea Paredes, Adam Nguyen</p>
+        <br>
+        <p>Use the dropdown below to explore different analyses and interactive charts</p>
+      </div>
+    </div>
+
+    <!-- Dropdown box to select charts -->
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <select id="chartSelector">
+          <option value="Resources/EL/el_combined.html">Property Analysis</option>
+          <!-- <option value="Resources/AN/an_combined.html">Reviews Analysis</option>
+          <option value="Resources/RK/rk_combined.html">Pricing Analysis</option>
+          <option value="Resources/AP/ap_combined.html">Hosts Analysis</option> -->
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lower half of the webpage -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" id="chartContainer">
+        <!-- The content will be loaded dynamically here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Load D3.js v7 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Load Leaflet library -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <!-- Load the el_map_logic.js script using a relative path -->
+  <script src="http://127.0.0.1:5500/Resources/EL/el_map_logic.js"></script>
+
+  <script>
+    // Function to load the selected chart
+    function loadChart(chartFileName) {
+      fetch(chartFileName)
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('chartContainer').innerHTML = data;
+        })
+        .catch(error => console.error('Error fetching chart:', error));
+    }
+
+    // Handle the dropdown change event
+    document.addEventListener('DOMContentLoaded', function() {
+      const chartSelector = document.getElementById('chartSelector');
+
+      chartSelector.addEventListener('change', function () {
+        const selectedChart = chartSelector.value;
+        loadChart(selectedChart);
+      });
+
+      // Load the initial chart on page load
+      const initialChart = chartSelector.value;
+      loadChart(initialChart);
+    });
+  </script>
+
+</body>
+
+</html>

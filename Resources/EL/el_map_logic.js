@@ -1,5 +1,5 @@
 // Fetch NYC GeoJSON data
-const nycGeoJSON = "../nyc.geojson";
+const nycGeoJSON = "http://127.0.0.1:5500/Resources/nyc.geojson";
 d3.json(nycGeoJSON).then(function (geoJSONData) {
 
   // Create the Leaflet map instance
