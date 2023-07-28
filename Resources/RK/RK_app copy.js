@@ -1,72 +1,89 @@
-// Get the API link
 const url = "http://127.0.0.1:5000/api/BigDataBandits/Listings";
 
-// Fetch the JSON data and console it 
-// It will turn it into a data object 
-d3.json(url).then(data => {
-  var ctx = document.getElementById('myChart').getContext('2d');
-  var chartData = [];
+// Function to fetch data from the API using d3.json
+function fetchData() {
+  d3.json(url)
+    .then(data => {
+      // Initialize an object to store the unique listings
+      const uniqueListings = {};
 
-  data.forEach(item => {
-    var adjustedPrice = parseFloat(item.adjusted_price.replace("$", ""));
-    var listingId = item.listing_id;
-    var existingDataIndex = chartData.findIndex(dataItem => dataItem.label === listingId);
-
-    if (existingDataIndex !== -1) {
-      chartData[existingDataIndex].x = (chartData[existingDataIndex].x + adjustedPrice) / 2;
-      chartData[existingDataIndex].y = (chartData[existingDataIndex].y + item.accommodates) / 2;
-      chartData[existingDataIndex].r += item.number_of_reviews * 10;
-    } else {
-      chartData.push({
-        x: adjustedPrice,
-        y: item.accommodates,
-        r: item.number_of_reviews * 2,
-        label: listingId,
-        name: item.name,
-        url: item.listing_url
+      // Process the data and add unique listings to the object
+      data.forEach(item => {
+        const listingId = item.listing_id;
+        if (!uniqueListings.hasOwnProperty(listingId)) {
+          const adjustedPrice = parseFloat(item.adjusted_price.replace('$', ''));
+          const accommodates = item.accommodates;
+          const numberOfReviews = item.number_of_reviews;
+          uniqueListings[listingId] = {
+            adjusted_price: adjustedPrice,
+            accommodates: accommodates,
+            number_of_reviews: numberOfReviews,
+          };
+        }
       });
-    }
+
+      // Create the Chart.js bubble chart
+      createBubbleChart(uniqueListings);
+
+    })
+    .catch(error => {
+      console.error(`Error occurred: ${error}`);
+    });
+}
+
+// Function to create the bubble chart
+function createBubbleChart(data) {
+  const bubbleData = Object.values(data).map(listing => {
+    return {
+      x: listing.adjusted_price * .5,
+      y: listing.accommodates,
+      r: listing.number_of_reviews * 1, // Adjust the factor to control the bubble size
+    };
   });
 
-  const chartConfig = {
+  const ctx = document.getElementById('bubbleChart').getContext('2d');
+  const bubbleChart = new Chart(ctx, {
     type: 'bubble',
     data: {
       datasets: [{
         label: 'Bubble Chart',
-        data: chartData,
-        backgroundColor: 'skyblue',
-        borderColor: 'black'
+        data: bubbleData,
+        backgroundColor: 'rgba(75, 192, 192, 0.6)',
+        borderColor: 'rgba(75, 192, 192, 1)',
+        pointRadius: 5, // Base radius for the bubbles
       }]
     },
     options: {
       scales: {
         x: {
+          type: 'linear',
+          position: 'bottom',
           title: {
             display: true,
-            text: 'Prices of Airbnb Listings'
-          }
+            text: 'Adjusted Price',
+          },
         },
         y: {
+          type: 'linear',
+          position: 'left',
           title: {
             display: true,
-            text: 'How many people are accommodated'
-          }
+            text: 'Accommodates',
+          },
         }
       },
       plugins: {
-        tooltip: {
-          callbacks: {
-            label: function(context) {
-              var name = context.raw.name;
-              var url = context.raw.url;
-              return `Name: ${name}, URL: ${url}`;
-            }
-          }
-        }
-      }
-    }
-  };
+        legend: {
+          display: false,
+        },
+        title: {
+          display: true,
+          text: 'Bubble Chart',
+        },
+      },
+    },
+  });
+}
 
-  // Create the Chart instance using the ctx and chartConfig
-  new Chart(ctx, chartConfig);
-}).catch(error => console.error(error));
+// Call the function to fetch data and create the bubble chart
+fetchData();
