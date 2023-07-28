@@ -4,7 +4,7 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-
+import pandas as pd
 from flask_cors import CORS
 from flask import Flask, jsonify
 
@@ -102,6 +102,35 @@ def listings():
         listing_data.append(data_dict)
 
     return jsonify(listing_data)
+
+@app.route("/api/BigDataBandits/Listings_unique")
+def listings_unique():
+    # Create our session (link) from Python to the DB
+    session = Session(engine)
+    """Return a list of Listings data"""
+    # Query all Listing data
+    results = session.query(Listings.listing_id, Listings.listing_url, Listings.name, Listings.host_id, Listings.host_url, Listings.host_name, Listings.host_since,
+                            Listings.host_is_superhost, Listings.host_listings_count, Listings.host_total_listings_count, Listings.latitude, Listings.longitude,
+                            Listings.room_type, Listings.accommodates, Listings.bedrooms, Listings.beds, Listings.price,
+                            Listings.minimum_nights, Listings.maximum_nights, Listings.has_availability, Listings.number_of_reviews, Listings.number_of_reviews_ltm,
+                            Listings.number_of_reviews_l30d, Listings.first_review, Listings.last_review, Listings.review_scores_rating, Listings.calculated_host_listings_count,
+                            Listings.reviews_per_month, Listings.date, Listings.available, Listings.price, Listings.adjusted_price
+                            ).all()
+    session.close()
+    # Create a dictionary from the row data and append to a list of listing_data
+    listing_data2 = []
+    
+    cols = ["adjusted_price", "accommodates", "number_of_reviews"]
+    df = pd.DataFrame(results)
+    # print(df[cols])
+    df2 = df[cols].drop_duplicates(subset= cols)
+    for ind in df2.index:
+        data_dict = {}
+        data_dict["adjusted_price"] = str(df['adjusted_price'][ind])
+        data_dict["accommodates"] = str(df['accommodates'][ind])
+        data_dict["number_of_reviews"] = str(df['number_of_reviews'][ind])
+        listing_data2.append(data_dict)
+    return jsonify(listing_data2)
 
 
 @app.route("/api/BigDataBandits/Reviews")
