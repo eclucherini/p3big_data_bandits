@@ -1,7 +1,6 @@
 // Fetch NYC GeoJSON data
 const nycGeoJSON = "../nyc.geojson";
 d3.json(nycGeoJSON).then(function (geoJSONData) {
-
   // Create the Leaflet map instance
   var map = L.map('map').setView([40.7128, -74.0060], 12); // Set the initial view to NYC coordinates
 

@@ -273,13 +273,13 @@ function plot3Chart(data) {
     yaxis: { title: 'Number of Nights' },
     barmode: 'group',
     height: 400,
-    width: 800
+    width: 600
   };
 
   Plotly.newPlot('plot3', plot3Data, plot3Layout);
 }
 
-// Display the results using Plotly to create a grouped bar chart for average reviews
+// Display the Avg. Min and Max Nights Required results using Plotly to create a grouped bar chart for average reviews
 function plot4Chart(data) {
   const roomTypeAverageReviewsLTM = calculateAverageReviewsLTM(data);
   const roomTypeAverageReviews30D = calculateAverageReviews30D(data);
@@ -313,7 +313,7 @@ function plot4Chart(data) {
     yaxis: { title: 'Number of Reviews' },
     barmode: 'group',
     height: 400,
-    width: 800
+    width: 600
   };
 
   Plotly.newPlot('plot4', plot4Data, plot4Layout);
