@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined HTML</title>
+  <!-- Include D3.js library -->
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Include Plotly library -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="AN_style.css">
+
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .left-fourth {
+      flex: 3;
+      padding: 10px;
+    }
+
+    .right-fourth {
+      flex: 1;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .chart-container {
+      width: 100%;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="left-fourth">
+    <!-- Content for the left fourth of the screen goes here -->
+  </div>
+
+  <div class="right-fourth">
+    <div class="chart-container">
+      <h1>Reviewer Reviews Bar Graph</h1>
+      <div id="chart"></div>
+      <script src="app_review_AN.js"></script>
+    </div>
+
+    <div class="chart-container">
+      <h1>Top 10 Airbnb Listings</h1>
+      <select id="roomTypeDropdown">
+        <option value="Private room">Private room</option>
+        <option value="Entire home/apt">Entire home/apt</option>
+      </select>
+      <table id="listingTable">
+        <caption>Top 10 Airbnb Reviews in NYC by Type</caption>
+        <thead>
+          <tr>
+            <th>Listing ID</th>
+            <th>Name</th>
+            <th>Number of Reviews</th>
+            <th>Review Scores Rating</th>
+            <th>Price / Night</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <script src="app_AN copy.js"></script>
+    </div>
+  </div>
+</body>
+</html>
