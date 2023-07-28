@@ -129,6 +129,7 @@ def listings_unique():
         data_dict["adjusted_price"] = str(df['adjusted_price'][ind])
         data_dict["accommodates"] = str(df['accommodates'][ind])
         data_dict["number_of_reviews"] = str(df['number_of_reviews'][ind])
+        data_dict["listing_url"] = str(df['listing_url'][ind])
         listing_data2.append(data_dict)
     return jsonify(listing_data2)
 
