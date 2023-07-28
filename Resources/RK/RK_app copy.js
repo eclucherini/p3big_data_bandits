@@ -35,9 +35,9 @@ function fetchData() {
 function createBubbleChart(data) {
   const bubbleData = Object.values(data).map(listing => {
     return {
-      x: listing.adjusted_price * .5,
+      x: listing.adjusted_price,
       y: listing.accommodates,
-      r: listing.number_of_reviews * 1, // Adjust the factor to control the bubble size
+      r: listing.number_of_reviews * .25, // Adjust the factor to control the bubble size
     };
   });
 
@@ -50,7 +50,7 @@ function createBubbleChart(data) {
         data: bubbleData,
         backgroundColor: 'rgba(75, 192, 192, 0.6)',
         borderColor: 'rgba(75, 192, 192, 1)',
-        pointRadius: 5, // Base radius for the bubbles
+        pointRadius: 10, // Base radius for the bubbles
       }]
     },
     options: {
@@ -64,11 +64,16 @@ function createBubbleChart(data) {
           },
         },
         y: {
-          type: 'linear',
+          type: 'logarithmic', // Use logarithmic scale for y-axis
           position: 'left',
           title: {
             display: true,
             text: 'Accommodates',
+          },
+          ticks: {
+            callback: function (value, index, values) {
+              return Number.isInteger(Math.log10(value)) ? value : null;
+            },
           },
         }
       },
