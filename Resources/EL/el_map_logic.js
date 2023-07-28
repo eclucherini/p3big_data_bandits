@@ -1,5 +1,5 @@
 const Listing = "http://127.0.0.1:5000/api/BigDataBandits/Listings";
-const nycGeoJSON = "../Resources/nyc.geojson";
+const nycGeoJSON = "../nyc.geojson";
 
 // Fetch NYC GeoJSON data
 d3.json(nycGeoJSON).then(function (geoJSONData) {
