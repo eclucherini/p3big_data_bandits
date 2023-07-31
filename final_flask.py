@@ -43,6 +43,7 @@ def welcome():
         f"Available Routes:<br/>"
         f"/api/BigDataBandits/Listings<br/>"
         f"/api/BigDataBandits/Reviews<br/>"
+        f"/api/BigDataBandits/Listings_unique<br/>"
     )
 
 
