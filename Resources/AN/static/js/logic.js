@@ -3,13 +3,13 @@ let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
 
-// Initialize all the LayerGroups that we'll use.
+// Initialize all the LayerGroups
 let layers = {
   AVAILABLE: new L.LayerGroup(),
   UNAVAILABLE: new L.LayerGroup(),
 };
 
-// Create the map with our layers.
+// Create the map with layers.
 let map = L.map("map-id", {
   center: [40.707560, -73.936501],
   zoom: 13,
@@ -19,7 +19,7 @@ let map = L.map("map-id", {
   ]
 });
 
-// Add our "streetmap" tile layer to the map.
+// Add "streetmap" tile layer to the map.
 streetmap.addTo(map);
 
 // Create an overlays object to add to the layer control.
@@ -28,7 +28,7 @@ let overlays = {
   "Unavailable": layers.UNAVAILABLE,
 };
 
-// Create a control for our layers, and add our overlays to it.
+// Create a control for layers, and add overlays to it.
 L.control.layers(null, overlays).addTo(map);
 
 // Initialize an object that contains icons for each layer group.
@@ -50,8 +50,9 @@ let icons = {
 // Fetch the data from the API endpoint using d3.json
 d3.json('http://127.0.0.1:5000/api/BigDataBandits/Listings').then(function (data) {
   // Get today's date in the required format (e.g., "8/3/2023")
-  let todayDate = '7/31/2023'
-  // let todayDate = new Date().toLocaleDateString();
+  // -- hardcode to test dataset
+  //let todayDate = '7/31/2023'
+  let todayDate = new Date().toLocaleDateString();
 
 
   // Filter the data to get only entries with today's date

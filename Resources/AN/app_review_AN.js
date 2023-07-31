@@ -12,10 +12,10 @@ d3.json(Review).then(function(data) {
     const reviewerId = review.reviewer_id;
     const reviewerName = review.reviewer_name;
     if (reviewerData[reviewerId]) {
-      // If the reviewer_id is already in the object, increment the count
+      // If the reviewer_id is already in reviewerData, increment the count
       reviewerData[reviewerId].review_count++;
     } else {
-      // If the reviewer_id is not in the object, initialize the count to 1
+      // If the reviewer_id is not in the reveiwerData, initialize the count to 1
       reviewerData[reviewerId] = {
         reviewer_id: reviewerId,
         reviewer_name: reviewerName,

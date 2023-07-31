@@ -39,7 +39,7 @@
   <!-- Leaflet-Icon-Glyph CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet.icon.glyph/dist/leaflet.icon.glyph.css">
 
-  <!-- Our CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
   <style>
@@ -65,7 +65,7 @@
       flex-direction: column;
       align-items: center;
       overflow-y: scroll; /* Make the right-fourth section scrollable */
-      height: 100vh; /* Optional: Set a maximum height to enable scrolling */
+      height: 100vh; 
     }
 
     .chart-container {
@@ -101,24 +101,13 @@
 </head>
 <body>
   <div class="left-fourth">
-    <!-- The div that holds our map -->
+    <!-- The div that holds map -->
     <div id="map-id"></div>
 
-    <!-- Our JavaScript file -->
+    <!-- JavaScript file -->
     <script type="text/javascript" src="static/js/logic.js"></script>
 
-    <!-- <script>
-      // Create a custom icon with FontAwesome house icon
-      const houseIcon = L.icon.glyph({
-        prefix: 'fas',
-        glyph: 'home',
-        markerColor: 'blue', // Optionally specify the color
-        iconSize: [32, 32], // Optionally specify the icon size
-      });
-
-      // Add the house marker to the map
-      L.marker([latitude, longitude], { icon: houseIcon }).addTo(map);
-    </script> -->
+    
   </div>
 
   <div class="right-fourth">
