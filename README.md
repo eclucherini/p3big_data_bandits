@@ -44,5 +44,8 @@ This was done by using the onClick event handler which is part of chart.js.
 
 Adam Nguyen - Review Analysis: 
 -
-- [Analysis]
+- I worked on reviews analysis. It consisted of pulling a unique value of the listing_id from review_data, and creating a bar chart of the top 15 reviewers from our clean data using plotly. 
+ A top 10 Airbnb reviews by type table was created by taking the top 10 listings with the most reviews and review rating for Private rooms and Entire home/ apt. The addition of a link for each listing to view as well as price per night was added for the ability to compare each listing.
+Lastly, the Leaflet map was created to reflect on if a listing is available (green house) or unavailable (red sleeping bed) depending on the current date. If the listing is clicked then information is in the popup including name, price, room type, and url. There is the option to click the layout and show available listings as well as unavailable listings. 
+
 - Note: All original and linked files are located in Resources/AN. 
