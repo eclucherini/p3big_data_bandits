@@ -1,6 +1,5 @@
 # New York City AirBnB Analysis
--
-- p3big_data_bandits
+p3big_data_bandits
 
 # To use
 - (1) Open final_flask.py in an Integrated Terminal, type "python final_flask.py", then click the link to open the API in a development server. (Note that this step is required in order for the next step to function correctly.)
@@ -28,7 +27,7 @@ Link to website: https://eclucherini.github.io/p3big_data_bandits/
 # Analysis Ownership
 Elena Lucherini - Property Analysis:
 - 
-- [Analysis]
+- The most popular room type available in New York City are entire homes/apartments, comprising 60% of the total of our dataset. Following that at 39% are private rooms, with hotel rooms making up only 1%. It makes sense that entire homes/apartments would be the most available (and likely most popular), since they can accommodate on average 3.5 people (recognizing you cannot split people in half), whereas private and hotel rooms can only accommodate 2 and 2.7 people, respectively. Additionally, ntire homes/apartments have an average minimum night requirement f 24, compared to private rooms and hotel rooms average minimum nights required of 18 and 1, respectively. This indicates that entire homes/apartments are more likely to be rented for longer periods of time, particularly if guests do not have to share the space with other guests/owners. It's interesting that over the last 12 months, private room listings have, on average, 10 reviews, compared to entire homes/apartment listings' 8 reviews and hotels' 5 reviews, which indicates that private room listings are more likely to be reviewed on AirBnB, and may suggest that they are more likely to be rented than entire homes/apartments or hotel rooms (at least those listed on AirBnB). Finally, the map shows the neighborhoods within each NYC borough and how many of each room type currently listed on AirBnB (based on our cleaned dataset). For exmaple, Williamsburg in Brooklyn has 7 private rooms and 26 entire homes/apartments.
 - Note: All original and linked files located in Resources/EL.
 
 Andrea Paredes - Host Analysis:
