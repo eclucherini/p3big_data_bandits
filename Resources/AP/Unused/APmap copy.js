@@ -39,7 +39,7 @@ d3.json("http://127.0.0.1:5000/api/BigDataBandits/Listings").then(function (data
     L.marker(hosts[i].location, {
       fillOpacity: 0.75,
       color: "white",
-      fillColor: "purple",
+      fillColor: "red",
       // Setting our circle's radius to equal the output of our markerSize() function:
       // This will make our marker's size proportionate to its listings count.
       radius: markerSize(hosts[i].listings)
