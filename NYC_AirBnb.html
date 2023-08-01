@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
+  <!-- Head content remains the same -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>New York City AirBnb Analysis</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "stylesheet" type = "text/css" href="/css/style.css">
 </head>
 
 <body>
@@ -15,23 +16,23 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>New York City AirBnb Dashboard</h1>
+        <h1>Big Data Bandits Explore NYC AirBnBs</h1>
         <br>
-        <p>Rutva Korat, Elena Lucherini, Andrea Paredes, Adam Nguyen</p>
+        <h3>Rutva Korat, Elena Lucherini, Andrea Paredes, Adam Nguyen</h3>
         <br>
-        <p>Use the dropdown below to explore different analyses and interactive charts</p>
+        <h4>Use the links below to explore different analyses and interactive charts</h4>
       </div>
     </div>
 
-    <!-- Dropdown box to select charts -->
+    <!-- Links to select charts -->
     <div class="row">
       <div class="col-md-12 text-center">
-        <select id="chartSelector">
-          <option value="Resources/EL/el_combined.html">Property Analysis</option>
-          <!-- <option value="Resources/AN/an_combined.html">Reviews Analysis</option>
-          <option value="Resources/RK/rk_combined.html">Pricing Analysis</option>
-          <option value="Resources/AP/ap_combined.html">Hosts Analysis</option> -->
-        </select>
+        <!-- Replace the <select> element with anchor tags -->
+        <a href="Resources/EL/el_combined.html" id="propertyAnalysisLink">Property Analysis</a>
+        <a href="Resources/AP/APcombined.html" id="reviewsAnalysisLink">Host Analysis</a>
+        <a href="Resources/RK/RK_index.html" id="reviewsAnalysisLink">Pricing Analysis</a>
+        <a href="Resources/AN/combinedAN%20copy.html" id="reviewsAnalysisLink">Review Analysis</a>
+        <!-- Add more links for other charts if needed -->
       </div>
     </div>
   </div>
@@ -55,31 +56,30 @@
   <!-- Load the el_map_logic.js script using a relative path -->
   <script src="http://127.0.0.1:5500/Resources/EL/el_map_logic.js"></script>
 
-  <script>
-    // Function to load the selected chart
-    function loadChart(chartFileName) {
-      fetch(chartFileName)
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('chartContainer').innerHTML = data;
-        })
-        .catch(error => console.error('Error fetching chart:', error));
-    }
+<script>
+  // Function to load the selected chart
+  function loadChart(chartFileName) {
+    document.getElementById('chartContainer').innerHTML = `<iframe src="${chartFileName}" width="100%" height="600px"></iframe>`;
+  }
 
-    // Handle the dropdown change event
-    document.addEventListener('DOMContentLoaded', function() {
-      const chartSelector = document.getElementById('chartSelector');
+  // Handle the link click event
+  document.addEventListener('DOMContentLoaded', function() {
+    // Load the initial chart on page load
+    const initialChartLink = document.getElementById('propertyAnalysisLink');
+    const initialChart = initialChartLink.href;
+    loadChart(initialChart);
 
-      chartSelector.addEventListener('change', function () {
-        const selectedChart = chartSelector.value;
-        loadChart(selectedChart);
+    // Add event listeners to each link
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default link behavior
+        const chartFileName = this.href;
+        loadChart(chartFileName);
       });
-
-      // Load the initial chart on page load
-      const initialChart = chartSelector.value;
-      loadChart(initialChart);
     });
-  </script>
+  });
+</script>
 
 </body>
 
