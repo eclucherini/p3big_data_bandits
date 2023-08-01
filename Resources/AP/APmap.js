@@ -45,40 +45,37 @@ function createMap(topHosts) {
     "Street Map": streetmap
   };
 
-  // Create an overlayMaps object to hold the topHosts layer.
-  let overlayMaps = {
-    "Top Hosts": L.layerGroup() // Create an empty layerGroup for now
-  };
-
-  let myMap = L.map("map-id", {
-    center: [40.7128, -74.0060], // New York coordinates
-    zoom: 11, // Adjust the zoom level as needed
-    layers: [streetmap] // Only add the streetmap for now
-  });
+  // Create an empty layerGroup to hold the topHosts layer.
+  let tophostlayer = L.layerGroup();
 
   // Loop through the topHosts array, and create one marker for each host object.
   const customIcon = L.divIcon({
     className: 'custom-icon',
     html: '<div style="background-color: purple; border: 2px solid white; border-radius: 50%; width: 20px; height: 20px;"></div>',
   });
-  
-  // Loop through the top10hosts array, and create one marker for each host object.
+
   for (let i = 0; i < topHosts.length; i++) {
     L.marker(topHosts[i].location, {
       icon: customIcon,
-      // Setting our circle's radius to equal the output of our markerSize() function:
-      // This will make our marker's size proportionate to its listings count.
       radius: markerSize(topHosts[i].listings)
     }).bindPopup(`<h1 style="color: purple; line-height: 0.5; margin-bottom: 3px;">${topHosts[i].name}</h1>
                 <p><a href="${topHosts[i].url}" target="_blank">Host Profile</a></p>
                 <hr>
-                <h3 style="color: purple; line-height: 0.5; margin-bottom: 3px;">Total Listings: ${topHosts[i].listings.toLocaleString()}</h3>`).addTo(myMap);
+                <h3 style="color: purple; line-height: 0.5; margin-bottom: 3px;">Total Listings: ${topHosts[i].listings.toLocaleString()}</h3>`).addTo(tophostlayer);
   }
 
-  L.control.layers(baseMaps, overlayMaps, {
-    collapsed: false
+  let myMap = L.map("map-id", {
+    center: [40.730610, -73.935242], // New York coordinates
+    zoom: 11, // Adjust the zoom level as needed
+    layers: [streetmap, tophostlayer]
+  });
+
+  L.control.layers(baseMaps, {
+    "Top Hosts": tophostlayer
+  }, {
+    collapsed: true
   }).addTo(myMap);
 
-  // Now that the markers are added, add the overlayMaps layerGroup to the map
-  overlayMaps["Top Hosts"].addTo(myMap);
+  // Now that the markers are added, add the tophostlayer to the map
+  tophostlayer.addTo(myMap);
 };
