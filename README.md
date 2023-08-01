@@ -33,7 +33,7 @@ Elena Lucherini - Property Analysis:
 
 Andrea Paredes - Host Analysis:
 - 
-- [Analysis]
+- I decided to filter and sort the data to find the top 10 hosts with the most listings. To present the results I used a horizontal bar chart that included a code to change the color of the bars depending on the number of listings the host had. Right below it I presented a map to show the location of the property including a popup that contains a link to the host profile for more details. I believe this data is helpful for users looking to establish a partnership, for example, and would want to reach out the individuals with a larger number of listings.
 - Note: All original and linked files are located in Resources/AP.
 
 Rutva Korat - Pricing Analysis:
