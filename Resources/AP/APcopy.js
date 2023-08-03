@@ -1,20 +1,20 @@
-// Fetch data from the URL and create a bar chart for the top 10 hosts with the most listings.
+// Fetching data from the URL
 d3.json("http://127.0.0.1:5000/api/BigDataBandits/Listings").then(function (data) {
-  // Create an object to store the count of listings for each host
+  // Creating empty lists to store the count of listings for each host
   let uniqueHostNames = [];
   let totalListingsCountArray = [];
   
-  // Loop through the data and populate the arrays
+  // Loop to populate the arrays
   data.forEach(function (listing) {
     const hostName = listing.host_name;
     const totalListingsCount = listing.host_total_listings_count;
   
-    // Check if the host_name is not already in the uniqueHostNames array
+    // Checking if host_name is already in the uniqueHostNames array
     if (!uniqueHostNames.includes(hostName)) {
       uniqueHostNames.push(hostName); // Add the host_name to the uniqueHostNames array
       totalListingsCountArray.push(totalListingsCount); // Add the corresponding total listings count to the totalListingsCountArray
     } else {
-      // If the host_name is already in the uniqueHostNames array, find its index
+      // If the host_name is already in the uniqueHostNames array, it will find the index
       const index = uniqueHostNames.indexOf(hostName);  
     }
   });
@@ -24,10 +24,10 @@ d3.json("http://127.0.0.1:5000/api/BigDataBandits/Listings").then(function (data
     return result;
   }, {});
 
-  //Transforme the dictionary into an array  
+  //To transforme the dictionary into an array  
   const hostListingsArray = Object.entries(hostListingsDict);
 
-  // Sort the array in descending order based on the values
+  // To sort the array in descending order
   hostListingsArray.sort((a, b) => b[1] - a[1]);
   
   // Slicing to keep only top 10
@@ -38,17 +38,16 @@ d3.json("http://127.0.0.1:5000/api/BigDataBandits/Listings").then(function (data
   var valuelist = [];
 
   for (let i = 0; i < top10Hosts.length; i++) {
-    keylist.push(top10Hosts[i][0]); // Push the host name (key) at index 0
-    valuelist.push(top10Hosts[i][1]); // Push the total listings count (value) at index 1
+    keylist.push(top10Hosts[i][0]);
+    valuelist.push(top10Hosts[i][1]);
   }
   
   console.log(keylist);
   console.log(valuelist);
 
-  // Function to generate color based on the count
+  // Function to generate for the bars
   function getColor(countValue) {
-    // Define your color logic here
-    // For example, you can set different colors based on count ranges
+   
     if (countValue >= 30) {
       return 'rgba(54, 162, 235, 0.6)';
     } else if (countValue >= 20) {
@@ -90,7 +89,7 @@ d3.json("http://127.0.0.1:5000/api/BigDataBandits/Listings").then(function (data
       color: 'black'
     },
     yaxis: {
-      automargin: true // Adjust margins to accommodate full labels
+      automargin: true
     }
   };
 
